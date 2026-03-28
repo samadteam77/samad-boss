@@ -6,7 +6,7 @@
   "routes": [
     { "src": "/Sahil.nz", "dest": "/Sahil.nz.js" },
     { "src": "/Wiku", "dest": "/Wiku.js" },
-    { "src": "/Sabir", "dest": "/Sabir.js" },
+    { "src": "/Janu", "dest": "/Janu.js" },
     { "src": "/Sahilkk", "dest": "/Sahilkk.js" },
     { "src": "/ahtsham", "dest": "/ahtsham.js" },
     { "src": "/waris", "dest": "/waris.js" },
